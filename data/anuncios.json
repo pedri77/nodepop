@@ -1,0 +1,136 @@
+{
+    "anuncios": [ {
+        "nombre": "Bicicleta", 
+        "venta": true,
+        "precio": 230.15,
+        "foto": "./public/images/bicicleta.jpg",
+        "tags": [ "lifestyle", "motor"]
+        }, {
+        "nombre": "iPhone 3GS", 
+        "venta": false,
+        "precio": 50.00,
+        "foto": "./public/images/iphone.png",
+        "tags": [ "lifestyle", "mobile"]
+        }, {
+        "nombre": "Armario", 
+        "venta": true,
+        "precio": 100.15,
+        "foto": "./public/images/armario.jpg",
+        "tags": [ "lifestyle", "home"]
+        },{
+            "nombre": "Bonsai", 
+            "venta": true,
+            "precio": 45.50,
+            "foto": "./public/images/bonsai.jpg",
+            "tags": [ "lifestyle", "home"]    
+        },{
+            "nombre": "Camara", 
+            "venta": true,
+            "precio": 405.50,
+            "foto": "./public/images/camara.jpg",
+            "tags": [ "lifestyle", "tecnology"]
+        }, {
+            "nombre": "Camiseta", 
+            "venta": true,
+            "precio": 30.10,
+            "foto": "./public/images/camiseta.jpg",
+            "tags": [ "lifestyle", "clothes"]
+        }, {
+            "nombre": "Coche", 
+            "venta": true,
+            "precio": 45.50,
+            "foto": "./public/images/car.jpg",
+            "tags": [ "lifestyle", "motor"]
+        }, {
+            "nombre": "Cortina", 
+            "venta": true,
+            "precio": 105.90,
+            "foto": "./public/images/cortina.jpg",
+            "tags": [ "lifestyle", "home"]
+        }, {
+            "nombre": "Furgoneta", 
+            "venta": true,
+            "precio": 10000.50,
+            "foto": "./public/images/furgoneta-volkswagen.jpg",
+            "tags": [ "lifestyle", "motor"]
+        }, {
+            "nombre": "Gorro", 
+            "venta": true,
+            "precio": 9.90,
+            "foto": "./public/images/gorro.jpg",
+            "tags": [ "lifestyle", "clothes"]
+        }, {
+            "nombre": "Guantes", 
+            "venta": true,
+            "precio": 70.50,
+            "foto": "./public/images/guantes.jpg",
+            "tags": [ "lifestyle", "clothes"]
+        }, {
+            "nombre": "iPhone", 
+            "venta": true,
+            "precio": 345.50,
+            "foto": "./public/images/iphone.jpg",
+            "tags": [ "lifestyle", "tecnology"]
+        }, {
+            "nombre": "Maleta", 
+            "venta": true,
+            "precio": 32.60,
+            "foto": "./public/images/maleta.jpg",
+            "tags": [ "lifestyle", "home"]
+        }, {
+            "nombre": "Minion", 
+            "venta": true,
+            "precio": 5.50,
+            "foto": "./public/images/minion.jpg",
+            "tags": [ "lifestyle", "home"]
+        }, {
+            "nombre": "Muñeco", 
+            "venta": true,
+            "precio": 45.50,
+            "foto": "./public/images/muñeco.jpg",
+            "tags": [ "lifestyle", "home"]
+        }, {
+            "nombre": "PS2", 
+            "venta": true,
+            "precio": 115.70,
+            "foto": "./public/images/ps2.jpg",
+            "tags": [ "lifestyle", "tecnology"]
+        }, {
+            "nombre": "Rapsberry", 
+            "venta": true,
+            "precio": 90.00,
+            "foto": "./public/images/bonsai.jpg",
+            "tags": [ "lifestyle", "tecnology"]
+        }, {
+            "nombre": "Sofa", 
+            "venta": true,
+            "precio": 460.60,
+            "foto": "./public/images/sofa.jpg",
+            "tags": [ "lifestyle", "home"]
+        }, {
+            "nombre": "Teclado", 
+            "venta": true,
+            "precio": 70.00,
+            "foto": "./public/images/teclado.jpg",
+            "tags": [ "lifestyle", "tecnology"]
+        }, {
+            "nombre": "Televisión", 
+            "venta": true,
+            "precio": 670.20,
+            "foto": "./public/images/tv.jpg",
+            "tags": [ "lifestyle", "tecnology", "home"]
+        }, {
+            "nombre": "Vajilla", 
+            "venta": true,
+            "precio": 65.30,
+            "foto": "./public/images/vajilla.jpg",
+            "tags": [ "lifestyle", "home"]
+        }, {
+            "nombre": "Zapatillas", 
+            "venta": true,
+            "precio": 60.40,
+            "foto": "./public/images/zapatillas.jpg",
+            "tags": [ "lifestyle", "clothes"]
+        } ]
+        
+    }
