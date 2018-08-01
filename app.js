@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 //servimos ficheros estáticos
 app.use(express.static(path.join(__dirname, 'public')));
-// app.use('/pdfs', express.static('e:\pdfs'));
+app.use('/images', express.static('./public/images/'));
 
 // Variables globales de template
 app.locals.titulo = 'nodepop';
