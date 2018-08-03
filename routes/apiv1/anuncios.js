@@ -33,7 +33,7 @@ router.get('/', async (req, res, next) => {
       filtro.venta = venta;
     }
 
-    const agentes = await Anuncio.listar(filtro, limit, skip, fields, sort);
+    const anuncios = await Anuncio.listar(filtro, limit, skip, fields, sort);
     // si await falla, lanza una excepción --> throw new Exception()
     res.json({ success: true, result: anuncios });
   } catch (err) {

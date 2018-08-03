@@ -11,9 +11,10 @@ router.get('/', function(req, res, next) {
 /**
  * Ejemplo de ruta 
  */
-router.get('/ejemplo', function(req, res, next){
+router.get('/apiv1', function(req, res, next){
   //en un middleware podemos responder:
-  res.send('ok');
+  res.send('Prueba');
+  res.render('anuncios', { title: 'Anuncios' });
   //o llamar a next;
   // console.log('llamada a un middleware');
   next(new Error('no permitido'));
