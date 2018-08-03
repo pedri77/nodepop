@@ -11,9 +11,9 @@ router.get('/', function(req, res, next) {
 /**
  * Ejemplo de ruta 
  */
-router.get('/otrapagina', function(req, res, next){
+router.get('/ejemplo', function(req, res, next){
   //en un middleware podemos responder:
-  // res.send('ok');
+  res.send('ok');
   //o llamar a next;
   // console.log('llamada a un middleware');
   next(new Error('no permitido'));

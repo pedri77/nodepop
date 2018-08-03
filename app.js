@@ -10,7 +10,7 @@ var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'html');
+app.set('view engine', 'ejs');
 app.engine('html', require('ejs').__express);
 
 app.use(logger('dev'));
@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 //servimos ficheros estáticos
 app.use(express.static(path.join(__dirname, 'public')));
-app.use('/images', express.static('./public/images/'));
+// app.use('/images', express.static('./public/images/'));
 
 // Variables globales de template
 app.locals.titulo = 'nodepop';

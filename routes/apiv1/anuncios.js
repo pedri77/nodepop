@@ -5,6 +5,7 @@ const router = express.Router();
 var createError = require('http-errors');
 
 const Anuncio = require('../../models/Anuncios');
+const multer = require('../../lib/upload');
 
 /**
  * GET /
@@ -70,7 +71,7 @@ router.post('/', async (req, res, next) => {
   try {
     const datosAnuncio = req.body;
 
-    // crear un agente en memoria
+    // crear un anuncio en memoria
     const anuncio = new Anuncio(datosAnuncio);
 
     // guardarlo en la base de datos
