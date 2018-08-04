@@ -15,13 +15,40 @@ Una App realizada con NodeJS y Express
 
 <code>$ cd nodemon</code>
 
-<code>$ npm i </code>
+<code>$ npm i ó $npm install</code>
 
 ## Use
 
 1. Arrancar nuestra APP
+
+<code>$ nodemon</code>
+
 2. Inicializar la Base de Datos
+
+MondoDB --> descargar de la web oficial https://www.mongodb.com
+
+<code>$ cd mongodb_versiondescargada</code>
+<code> $ ./bin/mongod --dbpath ./data/db --directoryperdb</codes>
+
 3. Usos de nuestra App
+
+## 3.1 Arrancar nuestra base de datos
+
+<code> $ ./bin/mongod --dbpath ./data/db --directoryperdb</codes>
+
+## 3.2 Inicializar el script install_db
+
+## 3.3 Comprobar la app en el navegador
+
+http://localhost:3000
+
+## 3.4 Nuestra app y sus rutas
+
+http://localhost:3000/apiv1
+
+http://localhost:3000/apiv1/anuncios
+
+
 
 ## Documents
 
