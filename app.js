@@ -19,7 +19,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 //servimos ficheros estáticos
 app.use(express.static(path.join(__dirname, 'public')));
-// app.use('/images', express.static('./public/images/'));
+// Podemos ver las imagenes con la ruta localhost:3000/images/nodepop.png
+app.use('/images', express.static('./public/images/'));
 
 // Variables globales de template
 app.locals.titulo = 'nodepop';
@@ -43,6 +44,7 @@ app.use('/apiv1/anuncios', require('./routes/apiv1/anuncios'));
  */
 app.use('/',      require('./routes/index'));
 app.use('/users', require('./routes/users'));
+// app.use('/images', require('./public/images'));
 app.use('/apiv1/anuncios', require('./routes/apiv1/anuncios'));
 
 // catch 404 and forward to error handler

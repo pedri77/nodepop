@@ -1,8 +1,29 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: indianred;
 }
 
 a {
   color: #00B7FF;
 }
+
+p {
+  color: goldenrod;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+hr {
+  height: 5px;
+  background-color: greenyellow;
+  border: 2px solid yellow;
+}
+
+.logo {
+  width: 25%;
+}
+
+
