@@ -38,6 +38,8 @@ MondoDB --> descargar de la web oficial https://www.mongodb.com
 
 ## 3.2 Inicializar el script install_db
 
+<code>$ node install_db.js</code>
+
 ## 3.3 Comprobar la app en el navegador
 
 http://localhost:3000
